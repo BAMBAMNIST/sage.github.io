@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Stranger Things S4</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: gray;
+}
+
+/* Style the header */
+header {
+  background-color:black;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: red;
+}
+
+/* Container for flexboxes */
+  
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+h3{
+  color: grey;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 10;
+  -ms-flex: 10;
+  flex: 10;
+  background-image: url("https://i.pinimg.com/564x/93/e8/9b/93e89b8a9ff11205c365e71254e71e94.jpg");
+  padding: 20px;
+  max-height: 100vh;
+  color:white;
+  text-shadow:0.1em 0.1em #333;
+}
+
+/* Style the footer */
+footer {
+  background-color:black;
+  padding: 10px;
+  text-align: center;
+  color:red;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+
+  }
+}
+</style>
+</head>
+<body>
+
+<h3> CSS </h3>
+
+<header>
+  <h2>STRANGER THINGS</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="characters.html">CHARACTER</a></li>
+      <li><a href="plot.html">PLOT</a> </li>
+      <li><a href="aboutme.html">ABOUT ME</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>PLOT</h1>
+    <p>The first plotline takes place in Hawkins, where a series of mysterious teenage murders begin haunting the town. Eddie Munson, leader of the Hellfire Club, Hawkins High School Dungeons & Dragons group, becomes a prime suspect in the murders after senior cheerleading captain Chrissy Cunningham dies in his trailer. Dustin Henderson, Lucas and Erica Sinclair, Max Mayfield, Steve Harrington, Nancy Wheeler, and Robin Buckley begin investigating to clear Eddie's name. They discover that the true perpetrator is a powerful being who resides in the Upside Down, whom they later dub "Vecna".</p>
+
+    <p>The second plotline involves Mike Wheeler visiting Eleven, Will and Jonathan Byers at their new home in California. Due to the events in Hawkins and the imminent danger to her friends, Eleven goes with Dr. Sam Owens to a secret facility in Nevada to regain her powers, where she is reunited with Dr. Martin Brenner and forced to confront her time in Hawkins National Laboratory. With the military searching for Eleven, Mike, Will, Jonathan, and new friend Argyle try to track her down first.</p>
+
+    <p>The third plotline follows Joyce Byers and Murray Bauman as they venture to Russia upon learning that Jim Hopper may still be alive. Meanwhile, Hopper is held in a Soviet prison camp in Kamchatka, where he and the other inmates are forced to battle a Demogorgon that the Russians have captured.</p>
+  </article>
+</section>
+
+<footer>
+  <p>SEASON 4</p>
+</footer>
+
+</body>
+</html>

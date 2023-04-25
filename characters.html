@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: gray;
+}
+
+/* Style the header */
+header {
+  background-color:black;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: red;
+}
+
+/* Container for flexboxes */
+  
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+h3{
+  color: grey;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 10;
+  -ms-flex: 10;
+  flex: 10;
+  background-image: url("https://i.pinimg.com/564x/93/e8/9b/93e89b8a9ff11205c365e71254e71e94.jpg");
+  padding: 20px;
+  max-height: 1000vh;
+  color:white;
+  text-shadow:0.1em 0.1em #333;
+}
+
+/* Style the footer */
+footer {
+  background-color:black;
+  padding: 10px;
+  text-align: center;
+  color:red;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+
+  }
+}
+</style>
+</head>
+<body>
+
+<h3> CSS </h3>
+
+<header>
+  <h2>STRANGER THINGS</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="characters.html">CHARACTER</a></li>
+      <li><a href="plot.html">PLOT</a> </li>
+      <li><a href="aboutme.html">ABOUT ME</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Character</h1>
+    <p>Eleven - Eleven is a fictional character and the main character of the Netflix science fiction horror drama series Stranger Things, written and produced by the Duffer Brothers. She is primarily portrayed by British actress Millie Bobby Brown.</p>
+    <img src="https://i.pinimg.com/564x/46/94/fd/4694fdf21064db7309bf4807ba3a854b.jpg" style="height:200px;" >
+
+    <p>Mike Wheeler- a fictional character from the Netflix science fiction horror series Stranger Things. </p>
+    <img src="https://startefacts.com/upload//upload/news/328210382696.jpg" style="height:200px;" >
+
+   <p>William Byers- William Byers is a fictional character from the American science fiction horror drama television series Stranger Things.</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC0j3q4pc3U3A6GREVBi01axNFw27inHsKEw&usqp=CAU" style="height:200px;" >
+    <p>Lucas Sinclair- He is one of the best friends of Mike Wheeler, Dustin Henderson and Will Byers and Eleven. </p>
+    <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/07/StrangerThings_lucas.jpg" style="height:200px;" >
+    <p>Max Mayfield-portrayed by Sadie Sink, is a main character in Stranger Things, being introduced in the second season. A newcomer to the Party, and the stepsister of Billy Hargrove, she is best friends with Will Byers, Dustin Henderson, Jane "Eleven" Hopper, Lucas Sinclair and Mike Wheeler; she also has an on-and-off romantic relationship with Lucas</p>
+     <img src="https://w0.peakpx.com/wallpaper/423/711/HD-wallpaper-stranger-things-season-3-max-mayfield-8k.jpg" style="height:200px;" >
+
+
+
+
+
+
+
+  </article>
+</section>
+
+<footer>
+  <p>SEASON 4</p>
+</footer>
+
+</body>
+</html>
+
